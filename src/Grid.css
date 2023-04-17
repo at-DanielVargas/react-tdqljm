@@ -1,0 +1,9 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid > * {
+  flex-basis: calc((100% / 12) * 1);
+  max-width: calc((100% / 12) * 1);
+}
